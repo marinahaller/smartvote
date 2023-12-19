@@ -2,7 +2,7 @@
 % Please edit documentation in R/stats_sociodem.R
 \name{stats_sociodem}
 \alias{stats_sociodem}
-\title{stats_soziodem}
+\title{stats_sociodem}
 \usage{
 stats_sociodem(data, var, parties)
 }
@@ -17,7 +17,7 @@ stats_sociodem(data, var, parties)
 A cross table with descriptive statistics on your variable of interest overall and for each party.
 }
 \description{
-stats_soziodem
+Function calculates overall and grouped descriptive statistics on your variable of interest and puts it in a cross table.
 }
 \examples{
 # Import or Create a data frame
@@ -27,5 +27,6 @@ df <- data.frame(candidate = c("Candidate A", "Candidate B", "Candidate C", "Can
 df
 
 # Example for gender statistics
-stats_soziodem(df, gender, parties)
+stats_sociodem(df, gender, parties)
+
 }

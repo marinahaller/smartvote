@@ -2,11 +2,11 @@ Package: smartvote
 Type: Package
 Title: Data Analysis with Smartvote Candidate Data
 Version: 0.1.0
-Author: 
-  person("Marina", "Haller", , "marina.haller@hispeed.ch", role = "cre")
+Authors@R: 
+  person("Marina", "Haller", , "marina.haller@hispeed.ch", role = c("aut", "cre"))
 Description: This package contains a multitude of functions to use smartvote candidate data.
 License: `use_mit_license()`
 Encoding: UTF-8
+Imports: dplyr, tidyr
 Roxygen: list(markdown = TRUE)
 RoxygenNote: 7.2.3
-Imports: tidyverse
