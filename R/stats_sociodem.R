@@ -11,6 +11,7 @@
 #'
 #' @importFrom dplyr group_by summarise n mutate select left_join %>%
 #' @importFrom tidyr pivot_wider
+#' @importFrom tibble tibble
 #'
 #' @examples
 #' # Import or Create a data frame
@@ -50,3 +51,4 @@ stats_sociodem <- function(data, var, parties){
   sv_stats_final <- dplyr::left_join(sv_stats, sv_stats_all, by=var_name)
   sv_stats_final
 }
+
